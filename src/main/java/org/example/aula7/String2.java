@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class String2 {
     static void main(){
-        /*Peça o nome da pessoa e mostre ele todo em MAIÚSCULO e todo em minúsculo.*/
+        /*Peça o nome da pessoa e mostre ele todo em maiusculo e todo em minúsculo.*/
         String nomeCompleto;
         Scanner sc = new Scanner(System.in);
 
