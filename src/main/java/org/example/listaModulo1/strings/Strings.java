@@ -48,6 +48,56 @@ public class Strings {
         palavra = sc.nextLine();
         System.out.printf("A palavra contém na frase? %b \n",frase.contains(palavra));
 
+        /*
+        Peça o nome duas vezes e diga se os dois são iguais, ignorando maiúsculas.
+         */
+
+        String nome2,nome3;
+
+        System.out.printf("Digite um Nome: \n ");
+        nome2 = sc.nextLine();
+        nome2=nome2.toUpperCase();
+
+        System.out.printf("Digite outro Nome: \n ");
+        nome3 = sc.nextLine();
+        nome3=nome3.toUpperCase();
+
+        if(nome2.equals(nome3)){
+            System.out.printf("Os nomes são iguais. \n ");
+        }
+
+        else{
+            System.out.printf("Os nomes não são iguais. \n ");
+        }
+        /*
+        Peça um nome e mostre em maiúsculo, sem espaços nas pontas (dois métodos encadeados).
+         */
+        String nome4;
+
+        System.out.printf("Digite um Nome: \n ");
+        nome4 = sc.nextLine();
+        nome4=nome4.trim().toUpperCase();
+
+        System.out.printf("Nome formatado: %s \n ",nome4);
+
+        /*
+        Mini-desafio — Peça uma palavra e diga se ela começa e termina com a mesma letra,
+        ignorando maiúscula e minúscula.
+         */
+
+        String palavra2;
+
+        System.out.printf("Digite uma palavra: \n ");
+        palavra2= sc.nextLine();
+        palavra2 = palavra2.toUpperCase();
+
+
+                if(palavra2.charAt(0) == palavra2.charAt(palavra2.length()-1)){
+                    System.out.printf("A palavra começa e termina com a mesma letra. \n ");
+                }
+                else{
+                    System.out.printf("A palavra não começa e não termina com a mesma letra. \n ");
+                }
 
 
     }
