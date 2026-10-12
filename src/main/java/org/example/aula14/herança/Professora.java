@@ -1,4 +1,4 @@
-package org.example.aula14;
+package org.example.aula14.herança;
 
 public class Professora extends Pessoa{
     String disciplina;
@@ -10,7 +10,7 @@ public class Professora extends Pessoa{
     }
 
     @Override
-    void apresentar(){
+    public void apresentar(){
 
         System.out.printf("Oi, sou %s e ensino %s.\n",nome,disciplina);
    }

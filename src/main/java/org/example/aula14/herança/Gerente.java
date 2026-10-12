@@ -1,4 +1,4 @@
-package org.example.aula14;
+package org.example.aula14.herança;
 
 public class Gerente extends Funcionario implements Notificavel,Exportavel{
 

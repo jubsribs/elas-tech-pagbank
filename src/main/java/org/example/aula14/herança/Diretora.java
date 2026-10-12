@@ -1,4 +1,4 @@
-package org.example.aula14;
+package org.example.aula14.herança;
 
 public class Diretora extends Gerente{
 
